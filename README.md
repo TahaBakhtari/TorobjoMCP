@@ -1,29 +1,36 @@
 # Torobjo MCP Server
 
-A powerful MCP (Model Context Protocol) server implementation for product search and Instagram analysis.
+A production-grade MCP (Model Context Protocol) server implementation that combines Torob product search with Instagram content analysis capabilities. Built on FastMCP for high-performance model communication and data processing.
 
-## 🚀 Key Features
+## Key Technical Features
 
-- **MCP Protocol Implementation**: Full support for Model Context Protocol
-- **Dual Functionality**:
-  - Torob product search API integration
-  - Instagram caption extraction and analysis
-- **Claude Integration**: Designed to work seamlessly with Claude Sonnet
+- **Full MCP Protocol Support**: Implements all core Model Context Protocol specifications
+- **Dual-Mode Operation**:
+  - Direct Torob.com API integration for Persian product search
+  - Instagram content processing pipeline
+- **Claude-Optimized**: Designed specifically for Claude Sonnet integration
+- **Enterprise-Grade Reliability**:
+  - Automatic retry mechanisms
+  - Comprehensive error handling
+  - Rate limiting protection
 
-## Technical Architecture
+## Architecture Highlights
 
-- **FastMCP Core**: High-performance MCP server implementation
-- **Modular Tools**: Each functionality exposed as separate MCP tools
-- **Standardized Interface**: Consistent JSON input/output format
+- **FastMCP Core**: Leverages the high-performance FastMCP implementation
+- **Modular Tool Design**: Each service exposed as independent MCP endpoints
+- **Unified Interface**: Consistent JSON API for all operations
+- **Scalable**: Built to handle high-volume requests
 
-## Tools Overview
+## Core Endpoints
 
-### `search_torob`
-- Searches products on Torob.com
-- Returns price, title and URL
-- Supports Persian language queries
+### Product Search (`search_torob`)
+- Full Torob.com API coverage
+- Persian language optimized
+- Pagination support
+- Price filtering
 
-### `get_instagram_caption`
-- Extracts captions from Instagram posts
-- Handles various post formats
-- Error-resistant design
+### Instagram Processing (`get_instagram_caption`)
+- Robust caption extraction
+- Multiple fallback selectors
+- Headless browser automation
+- Error recovery
