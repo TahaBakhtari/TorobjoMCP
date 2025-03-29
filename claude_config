@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "mcp-server": {
+            "command": "/Users/taha88/.local/bin/uv",
+            "args": [
+                "--directory",
+                "/Users/taha88/Desktop/trobjo",
+                "run",
+                "torob_mcp_server.py"
+            ]
+        }
+    }
+}
