@@ -1,3 +1,7 @@
+# Watch the tutorial video on how to create an MCP server from [here](https://youtu.be/FedhNynmm8g?si=M4QbluZEKyuVJM1p).
+
+# ویدیو آموزش ساخت سرور MCP را از [اینجا](https://youtu.be/FedhNynmm8g?si=M4QbluZEKyuVJM1p) ببینید.
+
 # Torobjo MCP Server
 
 A production-grade MCP (Model Context Protocol) server implementation that combines Torob product search with Instagram content analysis capabilities. Built on FastMCP for high-performance model communication and data processing.
@@ -34,3 +38,6 @@ A production-grade MCP (Model Context Protocol) server implementation that combi
 - Multiple fallback selectors
 - Headless browser automation
 - Error recovery
+
+
+![1](https://github.com/user-attachments/assets/49155d39-311c-4b57-8eda-df2390dc631b)
